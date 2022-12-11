@@ -55,7 +55,8 @@ def multiply_calculator(number):
 	global has_calculated
 	result = number * multiplier
 	has_calculated = True
-	return result
+	return result # Return ends the function call
+				  # It's like a break 
 
 print(multiply_calculator(5)); print(has_calculated)
 
